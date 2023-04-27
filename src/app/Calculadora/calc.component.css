@@ -1,0 +1,55 @@
+html{
+    background-color: rgba(0, 0, 255, 0.308);
+    height: 100vh;
+    width: 100vw;
+   
+    
+}
+
+
+
+#Calc{
+margin: auto;
+margin-top: auto;
+background-color: orange;
+height: 500px;
+width: 500px;
+display: flex;
+justify-content: center;
+border-style: solid;
+border-radius: 12%;
+
+}
+#Display{
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 15%;
+
+}
+#title{
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: x-large;
+    color: purple;
+    display: flex;
+    align-items: center;
+
+}
+#aux{
+    display: flex;
+    justify-content: center;
+
+}
+
+.alinhar{
+    margin-top: 100px;
+    display: grid;
+    height: 60vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    /* height: 100vh;    */
+    width: 60vh;
+}
